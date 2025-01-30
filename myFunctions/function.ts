@@ -40,8 +40,10 @@ heros.map((hero): string => {
   return `hero is ${hero}`;
 });
 
-function handleError(essmsg: string): void{
-    throw new Error(essmsg)
+function handleError(essmsg: string): void {
+  throw new Error(essmsg);
 }
+
+handleError("Something went wrong");
 
 export {};
