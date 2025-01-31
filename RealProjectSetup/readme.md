@@ -67,3 +67,6 @@ console.log(`Hello, my name is ${this.name}`);
 const employee = new Employee('John');
 employee.greet(); // Accessible within derived class
 // console.log(employee.name); // Error: 'name' is protected and only accessible within class 'Person' and its subclasses.
+
+
+If I used Setter in set then not use void()
